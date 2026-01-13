@@ -1,2 +1,85 @@
-     .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, serif;
+  background-color: #f3e5d8;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 700px;
+  background-color: #fff;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.hero-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #7b284f;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.prep-time {
+  background-color: #fff5fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.prep-time ul li {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.ingredients li,
+.instructions li {
+  margin-left: 20px;
+  margin-bottom: 8px;
+}
+
+.instructions li::marker {
+  color: #7b284f;
+  font-weight: bold;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.nutrition td {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.nutrition .value {
+  color: #7b284f;
+  font-weight: bold;
+  text-align: right;
+}
